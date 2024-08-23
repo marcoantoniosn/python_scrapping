@@ -5,13 +5,13 @@ from bs4 import BeautifulSoup
 import time
 import pandas as pd
 
-# Inicializar listas vacías para cada columna
+# Inicializar listas vacías para cada columna del Excel
 lst_titulo = []
 lst_empresa = []
 lst_lugar = []
 lst_desde = []
 
-# Especificar el nombre del archivo y el nombre de la hoja
+# Especificar el nombre del archivo y el nombre de la hoja de resultado
 nombre_archivo = "datos_computrabajo.xlsx"
 nombre_hoja = ["Jefe de Sistemas","Jefe de TI","Jefe de Proyectos","Coordinador de Proyectos","Gestor de Proyectos","Lider Tecnico"]
 
